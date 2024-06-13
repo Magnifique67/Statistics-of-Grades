@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class grades {
+public class Grades {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int N;
@@ -15,6 +15,7 @@ public class grades {
         String[] array = arrayLine.split(" ");
         for (int i = 0; i < N; i++) {
             scores[i] = Integer.parseInt(array[i]);
+            System.out.print(scores[i]);
         }
         input.close();
 
